@@ -4972,26 +4972,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Guy Cherkesky\\.nuget\\packages\\": {}
+    "/Users/cherkesky/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guy Cherkesky\\source\\repos\\DepartmentsEmployees\\DepartmentsEmployees\\DepartmentsEmployees.csproj",
+      "projectUniqueName": "/Users/cherkesky/workspace/C#/DepartmentsEmployees/DepartmentsEmployees/DepartmentsEmployees.csproj",
       "projectName": "DepartmentsEmployees",
-      "projectPath": "C:\\Users\\Guy Cherkesky\\source\\repos\\DepartmentsEmployees\\DepartmentsEmployees\\DepartmentsEmployees.csproj",
-      "packagesPath": "C:\\Users\\Guy Cherkesky\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guy Cherkesky\\source\\repos\\DepartmentsEmployees\\DepartmentsEmployees\\obj\\",
+      "projectPath": "/Users/cherkesky/workspace/C#/DepartmentsEmployees/DepartmentsEmployees/DepartmentsEmployees.csproj",
+      "packagesPath": "/Users/cherkesky/.nuget/packages/",
+      "outputPath": "/Users/cherkesky/workspace/C#/DepartmentsEmployees/DepartmentsEmployees/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Guy Cherkesky\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/cherkesky/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5028,7 +5030,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   }
