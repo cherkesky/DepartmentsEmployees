@@ -33,3 +33,38 @@ C:\Users\Guy Cherkesky\source\repos\DepartmentsEmployees\DepartmentsEmployees\ob
 C:\Users\Guy Cherkesky\source\repos\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.dll
 C:\Users\Guy Cherkesky\source\repos\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.pdb
 C:\Users\Guy Cherkesky\source\repos\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.genruntimeconfig.cache
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\DepartmentsEmployees.exe
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\DepartmentsEmployees.deps.json
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\DepartmentsEmployees.runtimeconfig.json
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\DepartmentsEmployees.runtimeconfig.dev.json
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\DepartmentsEmployees.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\DepartmentsEmployees.pdb
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.csprojAssemblyReference.cache
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.csproj.CoreCompileInputs.cache
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.AssemblyInfoInputs.cache
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.AssemblyInfo.cs
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.csproj.CopyComplete
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.dll
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.pdb
+Z:\workspace\C#\DepartmentsEmployees\DepartmentsEmployees\obj\Debug\netcoreapp3.1\DepartmentsEmployees.genruntimeconfig.cache

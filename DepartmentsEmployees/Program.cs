@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 
 namespace DepartmentsEmployees
 {
@@ -6,7 +8,17 @@ namespace DepartmentsEmployees
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DepartmentRepository departmentRepo = new DepartmentRepository();
+
+            Console.WriteLine("Getting All Departments:");
+            Console.WriteLine();
+
+            List<Department> allDepartments = departmentRepo.GetAllDepartments();
+
+            foreach (Department dept in allDepartments)
+            {
+                Console.WriteLine($"{dept.Id} {dept.DeptName}");
+            }
         }
     }
 }

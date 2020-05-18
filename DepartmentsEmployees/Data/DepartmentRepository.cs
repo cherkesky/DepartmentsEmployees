@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.Data.SqlClient;
 using DepartmentsEmployees.Models;
 
-namespace DepartmentsEmployees.Data
+namespace DepartmentsEmployees
 {
     /// <summary>
     ///  An object to contain all database interactions.
