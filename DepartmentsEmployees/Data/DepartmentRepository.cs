@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
 using Microsoft.Data.SqlClient;
 using DepartmentsEmployees.Models;
 
@@ -21,7 +20,8 @@ namespace DepartmentsEmployees.Data
             get
             {
                 // This is "address" of the database
-                string _connectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=DepartmentsEmployees;Integrated Security=True";
+                //string _connectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=DepartmentsEmployees;Integrated Security=True";
+                string _connectionString = "Data Source=DESKTOP-B0AS73Q\\SQLEXPRESS;Initial Catalog=DepartmentsEmployees;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
                 return new SqlConnection(_connectionString);
             }
         }

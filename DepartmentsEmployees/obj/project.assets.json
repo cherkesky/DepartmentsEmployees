@@ -4972,28 +4972,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/cherkesky/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Guy Cherkesky\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cherkesky/workspace/C#/DepartmentsEmployees/DepartmentsEmployees/DepartmentsEmployees.csproj",
+      "projectUniqueName": "Z:\\workspace\\C#\\DepartmentsEmployees\\DepartmentsEmployees\\DepartmentsEmployees.csproj",
       "projectName": "DepartmentsEmployees",
-      "projectPath": "/Users/cherkesky/workspace/C#/DepartmentsEmployees/DepartmentsEmployees/DepartmentsEmployees.csproj",
-      "packagesPath": "/Users/cherkesky/.nuget/packages/",
-      "outputPath": "/Users/cherkesky/workspace/C#/DepartmentsEmployees/DepartmentsEmployees/obj/",
+      "projectPath": "Z:\\workspace\\C#\\DepartmentsEmployees\\DepartmentsEmployees\\DepartmentsEmployees.csproj",
+      "packagesPath": "C:\\Users\\Guy Cherkesky\\.nuget\\packages\\",
+      "outputPath": "Z:\\workspace\\C#\\DepartmentsEmployees\\DepartmentsEmployees\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/cherkesky/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Guy Cherkesky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5030,7 +5028,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
