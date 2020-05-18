@@ -19,6 +19,13 @@ namespace DepartmentsEmployees
             {
                 Console.WriteLine($"{dept.Id} {dept.DeptName}");
             }
+
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("Getting Department with Id 1");
+
+            Department singleDepartment = departmentRepo.GetDepartmentById(1);
+
+            Console.WriteLine($"{singleDepartment.Id} {singleDepartment.DeptName}");
         }
     }
 }
