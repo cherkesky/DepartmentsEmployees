@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DepartmentsEmployees
 {
-    class Employee
+    public class Employee
     {
 
 

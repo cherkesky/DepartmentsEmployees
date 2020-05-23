@@ -20,28 +20,48 @@ namespace DepartmentsEmployees
             foreach (Department dept in allDepartments)
             {
                 Console.WriteLine($"{dept.Id} {dept.DeptName}");
+
+            }
+            EmployeeRepository employeeRepo = new EmployeeRepository();
+            Console.WriteLine();
+            Console.WriteLine("Getting All Employees:");
+            Console.WriteLine();
+
+            List<Employee> allEmployees = employeeRepo.GetAllEmployees();
+
+            foreach (Employee e in allEmployees)
+            {
+                Console.WriteLine($"{e.Id} {e.FirstName} {e.LastName} {e.DepartmentId}");
+
             }
 
-            // ******************** GET ONE ********************
 
-            Console.WriteLine("----------------------------");
-            Console.WriteLine("Getting Department with Id 1");
+            //// ******************** get one ********************
 
-            Department singleDepartment = departmentRepo.GetDepartmentById(1);
+            //console.writeline("----------------------------");
+            //console.writeline("getting department with id 1");
 
-            Console.WriteLine($"{singleDepartment.Id} {singleDepartment.DeptName}");
+            //department singledepartment = departmentrepo.getdepartmentbyid(1);
+
+            //console.writeline($"{singledepartment.id} {singledepartment.deptname}");
 
 
-            // ******************** ADD ********************
-            Department legalDept = new Department
-            {
-                DeptName = "Legal"
-            };
+            //// ******************** add ********************
+            //department legaldept = new department
+            //{
+            //    deptname = "legal"
+            //};
 
-            departmentRepo.AddDepartment(legalDept);
+            //departmentrepo.adddepartment(legaldept);
 
-            Console.WriteLine("-------------------------------");
-            Console.WriteLine("Added the new Legal Department!");
+            //console.writeline("-------------------------------");
+            //console.writeline("added the new legal department!");
+
+
+
+
+
+
         }
     }
 }
