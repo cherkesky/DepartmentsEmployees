@@ -46,6 +46,20 @@ namespace DepartmentsEmployees
             Console.WriteLine($"{singleEmployee.Id} {singleEmployee.FirstName} {singleEmployee.LastName} {singleEmployee.DepartmentId}");
 
 
+            // ******************** GET ALL + DEPT ********************
+
+            DepartmentRepository departmentRepoAll = new DepartmentRepository();
+            Console.WriteLine();
+            Console.WriteLine("---------------------------------------");
+            Console.WriteLine("Getting All Employees With Departments:");
+
+            List<Employee> allEmployeesAll = employeeRepo.GetAllEmployeesWithDepartment();
+
+            foreach (Employee e in allEmployeesAll)
+            {
+                Console.WriteLine($"{e.Id} {e.FirstName} {e.LastName} - {e.Department.DeptName}");
+
+            }
 
             //// ******************** add ********************
             //department legaldept = new department

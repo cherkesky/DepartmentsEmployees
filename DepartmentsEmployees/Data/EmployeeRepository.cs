@@ -85,5 +85,60 @@ namespace DepartmentsEmployees
             }
         }//GET ONE()
 
+
+        public List<Employee> GetAllEmployeesWithDepartment()
+        {
+            using (SqlConnection conn = Connection)
+            {
+                conn.Open();
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = @"SELECT e.Id, e.FirstName, e.Lastname, e.DepartmentId, d.Id, d.DeptName
+                                        FROM Employee e
+                                        LEFT JOIN Department d ON e.DepartmentId = d.Id";
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    List<Employee> employees = new List<Employee>();
+
+                    while (reader.Read())
+                    {
+                        int idColumnPosition = reader.GetOrdinal("Id");
+                        int idValue = reader.GetInt32(idColumnPosition);
+
+                        int firstNameColumnPosition = reader.GetOrdinal("FirstName");
+                        string firstNameValue = reader.GetString(firstNameColumnPosition);
+
+                        int lastNameColumnPosition = reader.GetOrdinal("LastName");
+                        string lastNameValue = reader.GetString(lastNameColumnPosition);
+
+                        int deptIdColumn = reader.GetOrdinal("DepartmentId");
+                        int deptValue = reader.GetInt32(deptIdColumn);
+
+                        int deptNameColumnPosition = reader.GetOrdinal("DeptName");
+                        string deptNameValue = reader.GetString(deptNameColumnPosition);
+
+                        Employee employee = new Employee
+                        {
+                            Id = idValue,
+                            FirstName = firstNameValue,
+                            LastName = lastNameValue,
+                            DepartmentId = deptValue,
+                            Department = new Department()
+                            {
+                                Id = deptValue,
+                                DeptName = deptNameValue
+                            }
+                        };
+
+                        employees.Add(employee);
+                    }
+
+                    reader.Close();
+
+                    return employees;
+                }
+            }
+        } // GET ALL + DEPT
+
     }//class
 }//namespace
