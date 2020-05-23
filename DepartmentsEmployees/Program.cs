@@ -61,16 +61,31 @@ namespace DepartmentsEmployees
 
             }
 
-            //// ******************** add ********************
-            //department legaldept = new department
-            //{
-            //    deptname = "legal"
-            //};
 
-            //departmentrepo.adddepartment(legaldept);
+            // ******************** ADD ********************	
+            Department legalDept = new Department
+            {
+                DeptName = "Legal"
+            };
 
-            //console.writeline("-------------------------------");
-            //console.writeline("added the new legal department!");
+            departmentRepo.AddDepartment(legalDept); // departmentRepo has been initialized in line 13
+
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine("Added the new Legal Department!");
+
+            Employee cherkesky = new Employee
+            {
+                FirstName = "Guy",
+                LastName = "Cherkesky",
+                DepartmentId = 2
+            };
+
+            employeeRepo.AddEmployee(cherkesky); // employeeRepo has been initialized in line 25
+
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine("Added the new talented Employee!");
+
+
 
 
 

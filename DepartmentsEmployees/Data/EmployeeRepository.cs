@@ -140,5 +140,35 @@ namespace DepartmentsEmployees
             }
         } // GET ALL + DEPT
 
+        public void AddEmployee(Employee employee)
+        {
+            using (SqlConnection conn = Connection)
+            {
+                conn.Open();
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    // These SQL parameters are annoying. Why can't we use string interpolation?
+                    // ... sql injection attacks!!!
+                    cmd.CommandText = @"
+                    INSERT INTO Employee (FirstName, LastName, DepartmentId) 
+                    OUTPUT INSERTED.Id
+                    Values (@FirstName, @LastName, @DepartmentId)";
+                    cmd.Parameters.Add(new SqlParameter("@FirstName", employee.FirstName));
+                    cmd.Parameters.Add(new SqlParameter("@LastName", employee.LastName));
+                    cmd.Parameters.Add(new SqlParameter("@DepartmentId", employee.DepartmentId));
+
+                    int id = (int)cmd.ExecuteScalar();
+
+                    employee.Id = id;
+                }
+            }
+
+            // when this method is finished we can look in the database and see the new department.
+        }
+
+
+
+
+
     }//class
 }//namespace
