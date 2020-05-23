@@ -35,15 +35,16 @@ namespace DepartmentsEmployees
 
             }
 
+            // ******************** GET ONE ********************
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("getting DEPARTMENT with id 1");
+            Department singleDepartment = departmentRepo.GetDepartmentById(1);
+            Console.WriteLine($"{singleDepartment.Id} {singleDepartment.DeptName}");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("getting EMPLOYEE with id 1");
+            Employee singleEmployee = employeeRepo.getEmployeeById(1);
+            Console.WriteLine($"{singleEmployee.Id} {singleEmployee.FirstName} {singleEmployee.LastName} {singleEmployee.DepartmentId}");
 
-            //// ******************** get one ********************
-
-            //console.writeline("----------------------------");
-            //console.writeline("getting department with id 1");
-
-            //department singledepartment = departmentrepo.getdepartmentbyid(1);
-
-            //console.writeline($"{singledepartment.id} {singledepartment.deptname}");
 
 
             //// ******************** add ********************

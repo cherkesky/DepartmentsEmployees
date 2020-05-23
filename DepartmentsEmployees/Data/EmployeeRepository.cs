@@ -57,7 +57,33 @@ namespace DepartmentsEmployees
             }// sqlconnection use
         } //GET ALL()
 
+        public Employee getEmployeeById(int id)
+        {
+            using (SqlConnection conn = Connection)
+            {
+                conn.Open();
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = "Select Id, FirstName, LastName, DepartmentId from Employee Where Id = @id";
+                    cmd.Parameters.Add(new SqlParameter("@id",id));
+                    SqlDataReader reader = cmd.ExecuteReader();
 
+                    Employee employee = null;
+                    if (reader.Read())
+                    {
+                        employee = new Employee
+                        {
+                            Id = id,
+                            FirstName = reader.GetString(reader.GetOrdinal("FirstName")),
+                            LastName = reader.GetString(reader.GetOrdinal("LastName")),
+                            DepartmentId = reader.GetInt32(reader.GetOrdinal("DepartmentId"))
+                        };
+                    }
+                    reader.Close();
+                    return employee;
+                }
+            }
+        }//GET ONE()
 
     }//class
 }//namespace
